@@ -1,9 +1,9 @@
 ## Angular Advanced Searchbox
-[![Build Status](https://travis-ci.org/dnauck/angular-filter-searchbox.png?branch=master)](https://travis-ci.org/dnauck/angular-filter-searchbox)
+[![Build Status](https://travis-ci.org/edneyego/angular-filter-searchbox.png?branch=master)](https://travis-ci.org/edneyego/angular-filter-searchbox)
 
 A directive for AngularJS providing a advanced visual search box.
 
-### [DEMO](http://dnauck.github.io/angular-filter-searchbox/)
+### [DEMO](http://edneyego.github.io/angular-filter-searchbox/)
 
 ### Usage
 

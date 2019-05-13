@@ -1,11 +1,11 @@
 {
   "name": "angular-filter-searchbox",
-  "version": "3.0.1",
+  "version": "1.0.0",
   "description": "A directive for AngularJS providing a advanced visual search box",
   "main": "dist/angular-filter-searchbox-tpls.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dnauck/angular-filter-searchbox"
+    "url": "https://github.com/edneyego/angular-filter-searchbox"
   },
   "keywords": [
     "search",
@@ -18,16 +18,16 @@
   },
   "contributors": [
     {
-      "name": "Daniel Nauck",
+      "name": "Edney Oliveira",
       "email": "d.nauck@nauck-it.de",
       "url": "http://www.nauck-it.de/"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dnauck/angular-filter-searchbox/issues"
+    "url": "https://github.com/edneyego/angular-filter-searchbox/issues"
   },
-  "homepage": "https://github.com/dnauck/angular-filter-searchbox",
+  "homepage": "https://github.com/edneyego/angular-filter-searchbox",
   "devDependencies": {
     "bower": "latest",
     "grunt": "^1.0.4",
@@ -38,7 +38,7 @@
     "grunt-contrib-concat": "latest",
     "grunt-contrib-copy": "latest",
     "grunt-contrib-cssmin": "latest",
-    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-jshint": "^2.1.0",
     "grunt-contrib-uglify": "latest"
   }
 }
