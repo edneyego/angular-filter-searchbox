@@ -1,7 +1,7 @@
 {
   "name": "angular-filter-searchbox",
   "version": "1.0.0",
-  "description": "A directive for AngularJS providing a advanced visual search box",
+  "description": "A directive for AngularJS providing a filter visual search box",
   "main": "dist/angular-filter-searchbox-tpls.js",
   "repository": {
     "type": "git",

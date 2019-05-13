@@ -1,4 +1,4 @@
-<div class="advancedSearchBox" ng-class="{active:focus}" ng-init="focus=false" ng-click="!focus ? focus=true : null" ng-mouseleave="!focus ? focus=true : null">
+<div class="filterSearchBox" ng-class="{active:focus}" ng-init="focus=false" ng-click="!focus ? focus=true : null" ng-mouseleave="!focus ? focus=true : null">
     <div class="filters styled-select green semi-square" ng-show="filters && filters.length>0">
         <select ng-model="filter" ng-options="opt.name for opt in filters" ng-change='clearSearch(); SelectedFilter(filter)'>
             <option value="">--Filtros--</option>
@@ -13,12 +13,6 @@
     <a ng-href="" ng-click="Save()" role="button" ng-show="searchParams.length>0">
         <span class="remove-all-icon fa fa-save"></span>
     </a>
-
-    .on( "mouseleave", function() {
-        $( "p:first", this ).text( "mouse leave" );
-        $( "p:last", this ).text( ++n );
-      });
-
     <div ng-dblclick="!focus ? setSearchFocus=true: null">
         <form ng-submit="Enter()">
             <div>

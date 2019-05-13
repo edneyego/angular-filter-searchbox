@@ -1,7 +1,7 @@
-## Angular Advanced Searchbox
+## Angular Filter Searchbox
 [![Build Status](https://travis-ci.org/edneyego/angular-filter-searchbox.png?branch=master)](https://travis-ci.org/edneyego/angular-filter-searchbox)
 
-A directive for AngularJS providing a advanced visual search box.
+A directive for AngularJS providing a filter visual search box.
 
 ### [DEMO](http://edneyego.github.io/angular-filter-searchbox/)
 
@@ -35,7 +35,7 @@ Load the javascript and css and declare your Angular dependency
 <!-- optional for auto complete / suggested value feature -->
 <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
 
-<!-- angular advanced searchbox includes -->
+<!-- angular filter searchbox includes -->
 <link rel="stylesheet" href="bower_components/angular-filter-searchbox/dist/angular-filter-searchbox.min.css">
 <script src="bower_components/angular-filter-searchbox/dist/angular-filter-searchbox-tpls.min.js"></script>
 ```
@@ -59,11 +59,11 @@ $scope.availableSearchParams = [
 Then in your view
 
 ```html
-<nit-advanced-searchbox
+<nit-filter-searchbox
 	ng-model="searchParams"
 	parameters="availableSearchParams"
 	placeholder="Search...">
-</nit-advanced-searchbox>
+</nit-filter-searchbox>
 ```
 
 The `angular-filter-searchbox` directive uses an external template stored in
@@ -119,31 +119,31 @@ param can be a scope variable as well as a hard-coded string.
 
 ### Events
 
-The directive emits events as search parameters added (`advanced-searchbox:addedSearchParam`), removed (`advanced-searchbox:removedSearchParam` and `advanced-searchbox:removedAllSearchParam`), enters the edit mode (`advanced-searchbox:enteredEditMode`), leaves the edit mode (`advanced-searchbox:leavedEditMode`) or the search model was updated (`advanced-searchbox:modelUpdated`).
+The directive emits events as search parameters added (`filter-searchbox:addedSearchParam`), removed (`filter-searchbox:removedSearchParam` and `filter-searchbox:removedAllSearchParam`), enters the edit mode (`filter-searchbox:enteredEditMode`), leaves the edit mode (`filter-searchbox:leavedEditMode`) or the search model was updated (`filter-searchbox:modelUpdated`).
 To catch these events do the following:
 
 ```js
-$scope.$on('advanced-searchbox:addedSearchParam', function (event, searchParameter) {
+$scope.$on('filter-searchbox:addedSearchParam', function (event, searchParameter) {
   ///
 });
 
-$scope.$on('advanced-searchbox:removedSearchParam', function (event, searchParameter) {
+$scope.$on('filter-searchbox:removedSearchParam', function (event, searchParameter) {
   ///
 });
 
-$scope.$on('advanced-searchbox:removedAllSearchParam', function (event) {
+$scope.$on('filter-searchbox:removedAllSearchParam', function (event) {
   ///
 });
 
-$scope.$on('advanced-searchbox:enteredEditMode', function (event, searchParameter) {
+$scope.$on('filter-searchbox:enteredEditMode', function (event, searchParameter) {
   ///
 });
 
-$scope.$on('advanced-searchbox:leavedEditMode', function (event, searchParameter) {
+$scope.$on('filter-searchbox:leavedEditMode', function (event, searchParameter) {
   ///
 });
 
-$scope.$on('advanced-searchbox:modelUpdated', function (event, model) {
+$scope.$on('filter-searchbox:modelUpdated', function (event, model) {
   ///
 });
 ```

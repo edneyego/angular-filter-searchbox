@@ -18,7 +18,7 @@ module.exports = function(grunt) {
     },
     ngtemplates: {
       options: {
-        module: 'angular-advanced-searchbox',
+        module: 'angular-filter-searchbox',
         htmlmin: {
           collapseBooleanAttributes:      true,
           collapseWhitespace:             true,

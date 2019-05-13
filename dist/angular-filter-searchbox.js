@@ -10,7 +10,7 @@
     'use strict';
     
     angular.module('angular-filter-searchbox', [])
-        .directive('nitAdvancedSearchbox', function() {
+        .directive('nitFilterSearchbox', function() {
             return {
                 restrict: 'E',
                 scope: {
