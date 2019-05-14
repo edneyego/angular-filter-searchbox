@@ -20,13 +20,16 @@
     "**/.*",
     "node_modules",
     "bower_components",
+    "src",
+    "Gruntfile.js",
+    "package.json",
     "test",
     "tests"
   ],
   "dependencies": {
-    "angular": "1",
-    "jquery": "2",
-    "bootstrap": "3",
-    "angular-bootstrap": "1"
-}
+        "angular": "1",
+        "jquery": "2",
+        "bootstrap": "3",
+        "angular-bootstrap": "1"
+    }
 }
