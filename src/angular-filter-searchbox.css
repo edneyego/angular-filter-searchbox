@@ -1,4 +1,4 @@
-.filterSearchBox {
+.advancedSearchBox {
     display: block;
     position: relative;
     margin: 5px 0 10px;
@@ -13,22 +13,22 @@
     line-height: 38px
 }
 
-.filterSearchBox.active {
+.advancedSearchBox.active {
     border-color: #66afe9;
 }
 
-.filterSearchBox .search-icon {
+.advancedSearchBox .search-icon {
     float: right;
     padding: 10px 0 0 10px
 }
 
-.filterSearchBox .remove-all-icon {
+.advancedSearchBox .remove-all-icon {
     float: right;
     padding: 10px 0 0 10px;
     cursor: pointer
 }
 
-.filterSearchBox .search-parameter {
+.advancedSearchBox .search-parameter {
     display: inline-block;
     height: 24px;
     margin: 0 7px 0 0;
@@ -42,31 +42,31 @@
     transition: box-shadow .1s linear
 }
 
-.filterSearchBox .search-parameter:hover {
+.advancedSearchBox .search-parameter:hover {
     box-shadow: 0 3px 3px rgba(0, 0, 0, .2)
 }
 
-.filterSearchBox .search-parameter div {
+.advancedSearchBox .search-parameter div {
     float: left;
     margin: 0 2px
 }
 
-.filterSearchBox .search-parameter .remove {
+.advancedSearchBox .search-parameter .remove {
     color: #fff;
     margin-left: 5px;
     cursor: pointer
 }
 
-.filterSearchBox .search-parameter .key,
-.filterSearchBox .search-parameter .value span {
+.advancedSearchBox .search-parameter .key,
+.advancedSearchBox .search-parameter .value span {
     color: #fff
 }
 
-.filterSearchBox .search-parameter .value input {
+.advancedSearchBox .search-parameter .value input {
     height: 24px
 }
 
-.filterSearchBox .search-parameter-input {
+.advancedSearchBox .search-parameter-input {
     display: inline-block;
     width: 100px;
     height: 24px;
@@ -75,12 +75,12 @@
     padding: 0
 }
 
-.filterSearchBox .search-parameter-input:focus {
+.advancedSearchBox .search-parameter-input:focus {
     box-shadow: none;
     outline: 0
 }
 
-.filterSearchBox .search-parameter-suggestions {
+.advancedSearchBox .search-parameter-suggestions {
     cursor: auto;
     display: block;
     height: 120px !important;
@@ -88,7 +88,7 @@
     overflow-x: hidden;
 }
 
-.filterSearchBox .search-parameter-suggestions .title {
+.advancedSearchBox .search-parameter-suggestions .title {
     display: block;
     float: left;
     height: 25px;
@@ -101,7 +101,7 @@
     line-height: 25px
 }
 
-.filterSearchBox .search-parameter-suggestions .search-parameter {
+.advancedSearchBox .search-parameter-suggestions .search-parameter {
     cursor: pointer;
     background-color: #bdbdbd;
     color: #fff
@@ -110,7 +110,7 @@
 
 
 
-.filterSearchBox .filters {
+.advancedSearchBox .filters {
     float: left;
     /* padding: 0 0 0 10px; */
     cursor: pointer;

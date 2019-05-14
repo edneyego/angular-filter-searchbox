@@ -1,16 +1,9 @@
-/*!
- * angular-filter-searchbox
- * https://github.com/edneyego/angular-filter-searchbox
- * Copyright (c) 2016 Nauck IT KG http://www.nauck-it.de/
- * Author: Edney Oliveira <edneyego@gmail.com>
- * License: MIT
- */
 (function() {
 
     'use strict';
     
     angular.module('angular-filter-searchbox', [])
-        .directive('nitFilterSearchbox', function() {
+        .directive('nitAdvancedSearchbox', function() {
             return {
                 restrict: 'E',
                 scope: {
@@ -474,6 +467,3 @@
            };
         });
     })();
-    
-
-
