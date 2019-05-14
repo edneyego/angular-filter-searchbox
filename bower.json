@@ -3,7 +3,7 @@
   "description": "A directive for AngularJS providing a filter visual search box",
   "main": [
     "dist/angular-filter-searchbox.min.css",
-    "dist/angular-filter-searchbox-tpls.js"
+    "dist/angular-filter-searchbox-tpls.min.js"
   ],
   "authors": [
     "Edney Oliveira <edneyego@gmail.com>"
