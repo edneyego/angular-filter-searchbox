@@ -1,31 +1,35 @@
 {
   "name": "angular-filter-searchbox",
+  "version": "1.0.0",
+  "homepage": "https://github.com/edneyego/angular-filter-searchbox",
+  "authors": [
+    "Edney Oliveira <edneyego@gmail.come>"
+  ],
   "description": "A directive for AngularJS providing a filter visual search box",
   "main": [
     "dist/angular-filter-searchbox.min.css",
     "dist/angular-filter-searchbox-tpls.js"
   ],
-  "authors": [
-    "Edney Oliveira <edneyego@gmail.com>"
-  ],
-  "license": "MIT",
   "keywords": [
     "search",
     "angular",
     "bootstrap"
   ],
-  "homepage": "https://github.com/edneyego/angular-filter-searchbox",
+  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
+    "src",
+    "Gruntfile.js",
+    "package.json",
     "test",
     "tests"
   ],
   "dependencies": {
-    "angular": "1",
-    "jquery": "2",
-    "bootstrap": "3",
-    "angular-bootstrap": "1"
-}
+        "angular": "1",
+        "jquery": "2",
+        "bootstrap": "3",
+        "angular-bootstrap": "1"
+    }
 }
