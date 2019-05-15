@@ -1,6 +1,6 @@
 {
   "name": "angular-filter-searchbox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A directive for AngularJS providing a filter visual search box",
   "main": [
     "dist/angular-filter-searchbox.min.css",
