@@ -479,9 +479,9 @@ angular.module('angular-filter-searchbox').run(['$templateCache', function($temp
     "        </select>\n" +
     "    </div>\n" +
     "    <a ng-href=\"\" ng-click=\"SelectedFilter(null); removeFilter();\" role=\"button\"> <span\n" +
-    "            class=\"remove-all-icon fa fa-eraser\" title=\"Limpar filtros selecionados\" style=\"font-size: large;\"></span> </a>\n" +
+    "            class=\"remove-all-icon fa fa-eraser\" title=\"Limpar filtros selecionados\" style=\"font-size: x-large; padding: 6px 0 0 10px\"></span> </a>\n" +
     "    <a ng-href=\"\" ng-click=\"Save()\" role=\"button\" ng-show=\"searchParams.length>0\"> <span\n" +
-    "            class=\"remove-all-icon fa fa-save\" title=\"Salvar filtros selecionados\" style=\"font-size: large;\"></span> </a>\n" +
+    "            class=\"remove-all-icon fa fa-save\" title=\"Salvar filtros selecionados\" style=\"font-size: x-large; padding: 6px 0 0 10px\"></span> </a>\n" +
     "    <div ng-dblclick=\"!focus ? setSearchFocus=true: null\">\n" +
     "        <form ng-submit=\"Enter()\">\n" +
     "            <div>\n" +
