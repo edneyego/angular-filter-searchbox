@@ -14,11 +14,11 @@
             <div>
                 <div class="search-parameter" ng-repeat="(iKey, searchParam) in searchParams">
                     <a ng-href="" ng-click="addNewSearchParam(searchParam.key)" role=\"button\"
-                        ng-hide="searchParam.value.length>1"> <span class="remove fa fa-plus"></span> </a>
+                        ng-hide="searchParam.value.length>1"> <span class="remove fa fa-plus" style="font-size: 15px;"></span> </a>
                     <a ng-href="" ng-click="removeSearchParam($index)" role=\"button\"
-                        ng-hide="searchParam.required"> <span class="remove fa fa-trash"></span> </a>
+                        ng-hide="searchParam.required"> <span class="remove fa fa-trash" style="font-size: 15px;"></span> </a>
                     <a ng-href="" ng-click="" role=\"button\" ng-show="searchParam.required"> <span
-                            class="remove"></span> </a>
+                            class="remove" style="font-size: 15px;"></span> </a>
                     <div class="key">{{searchParam.name}}:</div>
                     <div ng-repeat="itemValue in searchParam.value"> <span style="color:darkgreen;"
                             ng-show="searchParam.value.length>1 && $index==0"> <b>&nbsp;OU&nbsp;</b> </span>

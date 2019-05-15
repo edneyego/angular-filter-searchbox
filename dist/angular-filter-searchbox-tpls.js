@@ -487,11 +487,11 @@ angular.module('angular-filter-searchbox').run(['$templateCache', function($temp
     "            <div>\n" +
     "                <div class=\"search-parameter\" ng-repeat=\"(iKey, searchParam) in searchParams\">\n" +
     "                    <a ng-href=\"\" ng-click=\"addNewSearchParam(searchParam.key)\" role=\\\"button\\\"\n" +
-    "                        ng-hide=\"searchParam.value.length>1\"> <span class=\"remove fa fa-plus\"></span> </a>\n" +
+    "                        ng-hide=\"searchParam.value.length>1\"> <span class=\"remove fa fa-plus\" style=\"font-size: 15px;\"></span> </a>\n" +
     "                    <a ng-href=\"\" ng-click=\"removeSearchParam($index)\" role=\\\"button\\\"\n" +
-    "                        ng-hide=\"searchParam.required\"> <span class=\"remove fa fa-trash\"></span> </a>\n" +
+    "                        ng-hide=\"searchParam.required\"> <span class=\"remove fa fa-trash\" style=\"font-size: 15px;\"></span> </a>\n" +
     "                    <a ng-href=\"\" ng-click=\"\" role=\\\"button\\\" ng-show=\"searchParam.required\"> <span\n" +
-    "                            class=\"remove\"></span> </a>\n" +
+    "                            class=\"remove\" style=\"font-size: 15px;\"></span> </a>\n" +
     "                    <div class=\"key\">{{searchParam.name}}:</div>\n" +
     "                    <div ng-repeat=\"itemValue in searchParam.value\"> <span style=\"color:darkgreen;\"\n" +
     "                            ng-show=\"searchParam.value.length>1 && $index==0\"> <b>&nbsp;OU&nbsp;</b> </span>\n" +
